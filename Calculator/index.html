@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript Calculator</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+</head>
+
+<body>
+
+  <div>
+    <h2>TODO:</h2>
+    <p>Fix . to not allow 0.0.0.0.0.</p>
+    <p>Implement the % button</p>
+    <p>Fix the sizing of the cal for big numbers</p>
+    <p>Fix After pressing = clicking on another number</p>
+    <p>Change the * and / signs</p>
+  </div>
+
+  <main>
+    <div class="display">
+      <h1 id="value">0</h1>
+      <h5 id="history"></h5>
+    </div>
+
+    <div class="keyboard">
+
+      <div class="column1">
+        <div class="button" id="ce">
+          <h2>CE</h2>
+        </div>
+        <div class="button" id="7">
+          <h2>7</h2>
+        </div>
+        <div class="button" id="4">
+          <h2>4</h2>
+        </div>
+        <div class="button" id="1">
+          <h2>1</h2>
+        </div>
+        <div class="button" id="dot">
+          <h2>.</h2>
+        </div>
+      </div>
+
+      <div class="column2">
+        <div class="button" id="ac">
+          <h2>AC</h2>
+        </div>
+        <div class="button" id="8">
+          <h2>8</h2>
+        </div>
+        <div class="button" id="5">
+          <h2>5</h2>
+        </div>
+        <div class="button" id="2">
+          <h2>2</h2>
+        </div>
+        <div class="button" id="0">
+          <h2>0</h2>
+        </div>
+      </div>
+
+
+      <div class="column3">
+        <div class="button" id="percentage">
+          <h2>%</h2>
+        </div>
+        <div class="button" id="9">
+          <h2>9</h2>
+        </div>
+        <div class="button" id="6">
+          <h2>6</h2>
+        </div>
+        <div class="button" id="3">
+          <h2>3</h2>
+        </div>
+        <div class="button" id="result">
+          <h2>=</h2>
+        </div>
+      </div>
+
+      <div class="column4">
+        <div class="button" id="division">
+          <h2>÷</h2>
+        </div>
+        <div class="button" id="multiplication">
+          <h2>×</h2>
+        </div>
+        <div class="button" id="subtraction">
+          <h2>-</h2>
+        </div>
+        <div class="button plus" id="addition">
+          <h2>+</h2>
+        </div>
+      </div>
+
+
+    </div>
+  </main>
+</body>
+
+</html>

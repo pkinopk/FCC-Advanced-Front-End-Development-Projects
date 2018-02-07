@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+/* Mobile Layout */
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.display h5 {
+  position: relative;
+  margin: 0 0 10px 0;
+  padding: 0 10px 0px 10px;
+  text-align: right;
+}
+
+main {
+  background-color: #f2f2f2;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 4px 4px 2px grey;
+}
+
+.display {
+  background-color: #fafafa;
+  border: 1px black solid;
+  border-radius: 10px;
+  margin: 10px;
+  height: 85px;
+}
+
+.display h1 {
+  padding: 0 10px 0 10px;
+  text-align: right;
+  margin-bottom: 0;
+}
+
+.keyboard {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  border: 1px gray solid;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  background-color: lightgrey;
+  border: 1px green solid;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  box-shadow: 2px 2px 1px grey;
+}
+
+.column1 .button {
+  margin-left: 10px;
+}
+
+div[class*=column] .button:last-child {
+  margin-bottom: 10px;
+}
+
+.plus {
+  height: 132px;
+}
+
+.column4 .button {
+  color: white;
+  background-color: grey;
+}
+
+#result {
+  background-color: darkorange;
+}
+
+#ce,
+#ac {
+  background-color: crimson;
+  color: white;
+}
